@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Get DOM elements
+    
     const newsText = document.getElementById('news-text');
     const analyzeBtn = document.getElementById('analyze-btn');
     const clearBtn = document.getElementById('clear-btn');
@@ -11,15 +11,12 @@ document.addEventListener('DOMContentLoaded', function() {
     const sampleCards = document.querySelectorAll('.sample-card');
     const tryButtons = document.querySelectorAll('.try-btn');
 
-    // API endpoint - replace with your actual endpoint
     const API_ENDPOINT = '/predict';
 
-    // Add event listeners
     analyzeBtn.addEventListener('click', analyzeNews);
     clearBtn.addEventListener('click', clearForm);
     newsText.addEventListener('input', validateInput);
 
-    // Add event listeners to sample cards
     sampleCards.forEach(card => {
         card.addEventListener('click', function() {
             const text = this.getAttribute('data-text');
@@ -28,7 +25,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Add event listeners to try buttons
     tryButtons.forEach(button => {
         button.addEventListener('click', function(e) {
             e.stopPropagation();
@@ -131,4 +127,5 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Initialize
     validateInput();
+
 });
