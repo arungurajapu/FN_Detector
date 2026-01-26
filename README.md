@@ -39,8 +39,8 @@ Detect if news is authentic or fabricated with high accuracy using advanced NLP 
 ✅ **Responsive Web UI** - Modern, mobile-friendly interface  
 ✅ **Batch Processing Ready** - Can extend to handle multiple texts  
 ✅ **Docker Containerized** - Easy deployment across platforms  
-✅ **Production-Ready** - Gunicorn + optimized for scaling  
-✅ **Multi-Cloud Support** - Deploy on AWS, GCP, Azure, Heroku, Kubernetes  
+✅ **Production-Ready** - Gunicorn + optimized for scaling  (DEPENDING UPON USAGE)
+✅ **Multi-Cloud Support** - Deploy on AWS, GCP, Azure, Heroku, Kubernetes(DEPENDING UPON USAGE NOT READY NOW)  
 ✅ **Comprehensive Documentation** - 150+ KB of guides and examples  
 
 ---
